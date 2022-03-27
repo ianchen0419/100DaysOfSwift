@@ -1,5 +1,4 @@
 import UIKit
-import Foundation
 
 enum Sizes: Comparable {
     case small
