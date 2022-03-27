@@ -1,5 +1,4 @@
 import UIKit
-import Foundation
 
 enum Plant: Int {
     case mercury = 1 // and now, earth is 3 planet
