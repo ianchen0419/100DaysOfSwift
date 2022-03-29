@@ -30,5 +30,7 @@ struct Empolyee {
     }
 }
 
-let tim = Empolyee(username: "TimC", password: "app1e") // has nil
-let craig = Empolyee(username: "CraigF", password: "ha1rf0rce0ne") // has vale
+let tim = Empolyee(username: "TimC", password: "app1e")
+print(tim) // nil
+let craig = Empolyee(username: "CraigF", password: "ha1rf0rce0ne")
+print(craig) // Optional(__lldb_expr_20.Empolyee(username: "CraigF", password: "ha1rf0rce0ne"))
