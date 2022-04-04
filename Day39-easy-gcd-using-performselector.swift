@@ -28,11 +28,6 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        performSelector(inBackground: #selector(fetchJSON), with: nil)
-        // run the fetchJSON method on the current object our view controller in the background
-    }
-    
-    @objc func fetchJSON() {
         title = "Whitehouse Petitions"
         navigationController?.navigationBar.prefersLargeTitles = true
         
@@ -47,6 +42,11 @@ class ViewController: UITableViewController {
             urlString = "https://hws.dev/petitions-2.json"
         }
         
+        performSelector(inBackground: #selector(fetchJSON), with: urlString)
+        // run the fetchJSON method on the current object our view controller in the background
+    }
+    
+    @objc func fetchJSON(urlString: String) {
         if let url = URL(string: urlString) {
             if let data = try? Data(contentsOf: url) {
                 parse(json: data)
@@ -64,10 +64,13 @@ class ViewController: UITableViewController {
         if let jsonPetitions = try? decoder.decode(Petitions.self, from: json) {
             petitions = jsonPetitions.results
             filteredPetitions = petitions
-            tableView.performSelector(onMainThread: #selector(UITableView.reloadData), with: nil, waitUntilDone: false)
+            performSelector(onMainThread: #selector(reloadData), with: nil, waitUntilDone: false)
         } else {
             performSelector(onMainThread: #selector(showError), with: nil, waitUntilDone: false)
         }
+    }
+    @objc func reloadData() {
+        tableView.reloadData()
     }
     
     @objc func showError() {
