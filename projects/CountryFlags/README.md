@@ -1,4 +1,4 @@
-# CountryFlags-Classic
+# CountryFlags
 
 <img src="Documentation/demo.gif" alt="Demo" width="320" />
 
