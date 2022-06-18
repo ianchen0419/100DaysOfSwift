@@ -1,4 +1,4 @@
-# WordScramble-Classic
+# WordScramble
 
 <img src="Documentation/demo.gif" width="320" alt="Demo" />
 
