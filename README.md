@@ -13,7 +13,10 @@
 |8|[SwiftyWords](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftyWords)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftyWords/Documentation/demo.gif" width="320" />|
 |9|[Hangman](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Hangman)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Hangman/Documentation/demo.gif" width="120" />|
 |10|[NamesToFaces](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/NamesToFaces)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/NamesToFaces/Documentation/demo.gif" width="120" />|
-|11|[Pachinko](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Pachinko)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Pachinko/Documentation/demo.gif" width="3320" />|
+|11|[Pachinko](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Pachinko)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Pachinko/Documentation/demo.gif" width="320" />|
+|11|[PhotoList](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/PhotoList)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/PhotoList/Documentation/demo.gif" width="120" />|
+
+
 
 
 
