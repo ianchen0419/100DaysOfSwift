@@ -12,6 +12,7 @@
 |7|[WhitehousePetitions](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/WhitehousePetitions)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/WhitehousePetitions/Documentation/demo.gif" width="120" />|
 |8|[SwiftyWords](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftyWords)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftyWords/Documentation/demo.gif" width="320" />|
 |9|[Hangman](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Hangman)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Hangman/Documentation/demo.gif" width="120" />|
+|9|[NamesToFaces](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/NamesToFaces)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/NamesToFaces/Documentation/demo.gif" width="120" />|
 
 
 
