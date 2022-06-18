@@ -14,7 +14,9 @@
 |9|[Hangman](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Hangman)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Hangman/Documentation/demo.gif" width="120" />|
 |10|[NamesToFaces](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/NamesToFaces)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/NamesToFaces/Documentation/demo.gif" width="120" />|
 |11|[Pachinko](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Pachinko)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Pachinko/Documentation/demo.gif" width="320" />|
-|11|[PhotoList](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/PhotoList)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/PhotoList/Documentation/demo.gif" width="120" />|
+|12|[PhotoList](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/PhotoList)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/PhotoList/Documentation/demo.gif" width="120" />|
+|13|[InstaFilter](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/InstaFilter)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/InstaFilter/Documentation/demo.gif" width="120" />|
+
 
 
 
