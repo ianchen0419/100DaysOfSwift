@@ -18,7 +18,8 @@
 |13|[Instafilter](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Instafilter)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Instafilter/Documentation/demo.gif" width="120" />|
 |14|[Whack-a-Penguin](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Whack-a-Penguin)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Whack-a-Penguin/Documentation/demo.gif" width="320" />|
 |15|[CountryLists](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CountryLists)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CountryLists/Documentation/demo.gif" width="120" />|
-|16|[CountryLists](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CapitalCities)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CapitalCities/Documentation/demo.gif" width="120" />|
+|16|[CapitalCities](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CapitalCities)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CapitalCities/Documentation/demo.gif" width="120" />|
+|17|[SpaceRace](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SpaceRace)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SpaceRace/Documentation/demo.gif" width="320" />|
 
 
 
