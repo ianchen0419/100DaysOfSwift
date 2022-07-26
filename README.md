@@ -26,7 +26,8 @@
 |21|[NotesImitation](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/NotesImitation)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/NotesImitation/Documentation/demo.gif" width="120" />|
 |22|[Detect-a-Beacon](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Detect-a-Beacon)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Detect-a-Beacon/Documentation/demo.gif" width="120" />|
 |23|[SwiftyNinja](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftyNinja)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftyNinja/Documentation/demo.gif" width="320" />|
-|24|[SelfieShare](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SelfieShare)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SelfieShare/Documentation/demo.gif" width="320" />|
+|24|[SelfieShare](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SelfieShare)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SelfieShare/Documentation/demo.gif" width="120" />|
+|25|[MarbleMaze](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/MarbleMaze)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/MarbleMaze/Documentation/demo.gif" width="120" />|
 
 
 
