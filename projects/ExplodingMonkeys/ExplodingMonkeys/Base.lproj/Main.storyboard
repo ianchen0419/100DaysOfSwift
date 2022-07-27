@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="ipad7_9" orientation="landscape" layout="fullscreen" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="ExplodingMonkeys" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="1133" height="744"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="a1m-Up-vn2">
+                                <rect key="frame" x="18" y="39.5" width="304" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="oxu-u6-C2T"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="angleChagned:" destination="BV1-FR-VrT" eventType="valueChanged" id="ClV-Eh-R8C"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="125" minValue="0.0" maxValue="250" translatesAutoresizingMaskIntoConstraints="NO" id="Fhm-BK-zBE">
+                                <rect key="frame" x="399.5" y="39.5" width="304" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="qSN-Ti-izY"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="velocityChanged:" destination="BV1-FR-VrT" eventType="valueChanged" id="dpe-ux-Wac"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gp-O7-EUF">
+                                <rect key="frame" x="721.5" y="44" width="120" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="30H-QK-t7F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7n6-AC-5V6">
+                                <rect key="frame" x="1021" y="35" width="92" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="LAUNCH">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="launch:" destination="BV1-FR-VrT" eventType="touchUpInside" id="HTH-Qk-fjy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;&lt;&lt; PLAYER ONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uc1-SI-5XJ">
+                                <rect key="frame" x="499" y="89.5" width="135" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHI-fg-gxA">
+                                <rect key="frame" x="340" y="44" width="41.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fhm-BK-zBE" firstAttribute="leading" secondItem="aHI-fg-gxA" secondAttribute="trailing" constant="20" id="2UT-qn-Qfl"/>
+                            <constraint firstItem="a1m-Up-vn2" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="20" id="2XJ-bZ-olt"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="7n6-AC-5V6" secondAttribute="trailing" constant="20" id="8zp-aa-iPx"/>
+                            <constraint firstItem="5gp-O7-EUF" firstAttribute="centerY" secondItem="Fhm-BK-zBE" secondAttribute="centerY" id="Jxl-3g-6Ra"/>
+                            <constraint firstItem="aHI-fg-gxA" firstAttribute="leading" secondItem="a1m-Up-vn2" secondAttribute="trailing" constant="20" id="KJZ-vc-8L8"/>
+                            <constraint firstItem="Fhm-BK-zBE" firstAttribute="centerY" secondItem="aHI-fg-gxA" secondAttribute="centerY" id="Rd6-xd-9qf"/>
+                            <constraint firstItem="aHI-fg-gxA" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" constant="20" id="bIT-iU-tMS"/>
+                            <constraint firstItem="Uc1-SI-5XJ" firstAttribute="centerX" secondItem="4qk-I5-YsI" secondAttribute="centerX" id="hhX-bu-MQC"/>
+                            <constraint firstItem="5gp-O7-EUF" firstAttribute="leading" secondItem="Fhm-BK-zBE" secondAttribute="trailing" constant="20" id="pZ2-NO-LvC"/>
+                            <constraint firstItem="7n6-AC-5V6" firstAttribute="centerY" secondItem="5gp-O7-EUF" secondAttribute="centerY" id="u98-AJ-qkU"/>
+                            <constraint firstItem="aHI-fg-gxA" firstAttribute="centerY" secondItem="a1m-Up-vn2" secondAttribute="centerY" id="vlq-xQ-2bF"/>
+                            <constraint firstItem="Uc1-SI-5XJ" firstAttribute="top" secondItem="Fhm-BK-zBE" secondAttribute="bottom" constant="20" id="w63-KA-lOV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="angleLabel" destination="aHI-fg-gxA" id="eRg-5B-18s"/>
+                        <outlet property="angleSlider" destination="a1m-Up-vn2" id="TS3-zn-02T"/>
+                        <outlet property="launchButton" destination="7n6-AC-5V6" id="xny-F3-WEf"/>
+                        <outlet property="playerNumber" destination="Uc1-SI-5XJ" id="jp3-GZ-znp"/>
+                        <outlet property="velocityLabel" destination="5gp-O7-EUF" id="DtY-GT-Mh4"/>
+                        <outlet property="velocitySlider" destination="Fhm-BK-zBE" id="yx5-bV-5tt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

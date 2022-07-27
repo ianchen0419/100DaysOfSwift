@@ -27,7 +27,11 @@
 |22|[Detect-a-Beacon](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Detect-a-Beacon)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Detect-a-Beacon/Documentation/demo.gif" width="120" />|
 |23|[SwiftyNinja](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftyNinja)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftyNinja/Documentation/demo.gif" width="320" />|
 |24|[SelfieShare](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SelfieShare)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SelfieShare/Documentation/demo.gif" width="120" />|
-|25|[MarbleMaze](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/MarbleMaze)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/MarbleMaze/Documentation/demo.gif" width="120" />|
+|25|[MarbleMaze](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/MarbleMaze)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/MarbleMaze/Documentation/demo.gif" width="320" />|
+|26|[CoreGraphicsProject](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CoreGraphicsProject)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CoreGraphicsProject/Documentation/demo.gif" width="320" />|
+|27|[SecretSwift](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SecretSwift)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SecretSwift/Documentation/demo.gif" width="120" />|
+|28|[SecretSwift](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/ExplodingMonkeys)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/ExplodingMonkeys/Documentation/demo.gif" width="120" />|
+
 
 
 
