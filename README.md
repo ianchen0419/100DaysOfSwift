@@ -26,11 +26,21 @@
 |21|[NotesImitation](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/NotesImitation)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/NotesImitation/Documentation/demo.gif" width="120" />|
 |22|[Detect-a-Beacon](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Detect-a-Beacon)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Detect-a-Beacon/Documentation/demo.gif" width="120" />|
 |23|[SwiftyNinja](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftyNinja)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftyNinja/Documentation/demo.gif" width="320" />|
-|24|[SelfieShare](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SelfieShare)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SelfieShare/Documentation/demo.gif" width="120" />|
+|24|[SelfieShare](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SelfieShare)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SelfieShare/Documentation/demo.gif" width="320" />|
 |25|[MarbleMaze](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/MarbleMaze)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/MarbleMaze/Documentation/demo.gif" width="320" />|
 |26|[CoreGraphicsProject](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CoreGraphicsProject)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CoreGraphicsProject/Documentation/demo.gif" width="320" />|
 |27|[SecretSwift](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SecretSwift)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SecretSwift/Documentation/demo.gif" width="120" />|
-|28|[SecretSwift](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/ExplodingMonkeys)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/ExplodingMonkeys/Documentation/demo.gif" width="120" />|
+|28|[ExplodingMonkeys](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/ExplodingMonkeys)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/ExplodingMonkeys/Documentation/demo.gif" width="320" />|
+|29|[Instruments](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Instruments)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Instruments/Documentation/demo.png" width="320" />|
+|30|[Multibrowser](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Multibrowser)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Multibrowser/Documentation/demo.gif" width="320" />|
+|31|[SwiftSearcher](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/SwiftSearcher)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/SwiftSearcher/Documentation/demo.gif" width="120" />|
+|32|[Four-in-a-Row](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/Four-in-a-Row)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/Four-in-a-Row/Documentation/demo.gif" width="320" />|
+|33|[CrashyPlane](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/CrashyPlane)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/CrashyPlane/Documentation/demo.gif" width="120" />|
+|34|[PhysicTester](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/PhysicTester)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/PhysicTester/Documentation/demo.gif" width="320" />|
+|35|[GithubCommits](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/GithubCommits)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/GithubCommits/Documentation/demo.gif" width="120" />|
+|36|[UnitTesting](https://github.com/ianchen0419/100DaysOfSwift/tree/main/projects/UnitTesting)|<img src="https://github.com/ianchen0419/100DaysOfSwift/raw/main/projects/UnitTesting/Documentation/demo.png" width="120" />|
+
+
 
 
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PhysicTester_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Please read the instructions on your phone before continuing." textAlignment="center" numberOfLines="0" id="EDb-9Q-5mD"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Button" id="Pz8-nZ-ECm">
+                            <connections>
+                                <action selector="hideWelcomeText" destination="AgC-eL-Hgc" id="rm9-hx-Qt8"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="hideButton" destination="Pz8-nZ-ECm" id="Fb5-u5-G55"/>
+                        <outlet property="welcomeText" destination="EDb-9Q-5mD" id="TGi-aJ-dEH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-17" y="-6"/>
+        </scene>
+    </scenes>
+</document>

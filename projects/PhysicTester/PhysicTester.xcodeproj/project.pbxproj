@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D56DE362899021000233C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE352899021000233C23 /* AppDelegate.swift */; };
+		8D56DE382899021000233C23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE372899021000233C23 /* SceneDelegate.swift */; };
+		8D56DE3A2899021000233C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE392899021000233C23 /* ViewController.swift */; };
+		8D56DE3D2899021000233C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE3B2899021000233C23 /* Main.storyboard */; };
+		8D56DE3F2899021100233C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE3E2899021100233C23 /* Assets.xcassets */; };
+		8D56DE422899021100233C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE402899021100233C23 /* LaunchScreen.storyboard */; };
+		8D56DE472899021100233C23 /* PhysicTester WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8D56DE462899021100233C23 /* PhysicTester WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D56DE4D2899021100233C23 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE4B2899021100233C23 /* Interface.storyboard */; };
+		8D56DE4F2899021200233C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE4E2899021200233C23 /* Assets.xcassets */; };
+		8D56DE552899021200233C23 /* PhysicTester WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D56DE542899021200233C23 /* PhysicTester WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D56DE5A2899021200233C23 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE592899021200233C23 /* InterfaceController.swift */; };
+		8D56DE5C2899021200233C23 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE5B2899021200233C23 /* ExtensionDelegate.swift */; };
+		8D56DE5E2899021200233C23 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE5D2899021200233C23 /* ComplicationController.swift */; };
+		8D56DE602899021200233C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE5F2899021200233C23 /* Assets.xcassets */; };
+		8D56DE72289902FD00233C23 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE70289902FD00233C23 /* PhantomFromSpace.mp3 */; };
+		8D56DE73289902FD00233C23 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D56DE71289902FD00233C23 /* README.txt */; };
+		8D56DE75289903F300233C23 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE74289903F300233C23 /* CardViewController.swift */; };
+		8D56DE772899103800233C23 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56DE762899103700233C23 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D56DE482899021100233C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D56DE2A2899021000233C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D56DE452899021100233C23;
+			remoteInfo = "PhysicTester WatchKit App";
+		};
+		8D56DE562899021200233C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D56DE2A2899021000233C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D56DE532899021200233C23;
+			remoteInfo = "PhysicTester WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D56DE672899021200233C23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8D56DE552899021200233C23 /* PhysicTester WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D56DE6B2899021200233C23 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8D56DE472899021100233C23 /* PhysicTester WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D56DE322899021000233C23 /* PhysicTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D56DE352899021000233C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D56DE372899021000233C23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D56DE392899021000233C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D56DE3C2899021000233C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D56DE3E2899021100233C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D56DE412899021100233C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D56DE432899021100233C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D56DE462899021100233C23 /* PhysicTester WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhysicTester WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D56DE4C2899021100233C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8D56DE4E2899021200233C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D56DE542899021200233C23 /* PhysicTester WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PhysicTester WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D56DE592899021200233C23 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8D56DE5B2899021200233C23 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8D56DE5D2899021200233C23 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8D56DE5F2899021200233C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D56DE612899021200233C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D56DE70289902FD00233C23 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		8D56DE71289902FD00233C23 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8D56DE74289903F300233C23 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		8D56DE762899103700233C23 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D56DE2F2899021000233C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D56DE512899021200233C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D56DE292899021000233C23 = {
+			isa = PBXGroup;
+			children = (
+				8D56DE342899021000233C23 /* PhysicTester */,
+				8D56DE4A2899021100233C23 /* PhysicTester WatchKit App */,
+				8D56DE582899021200233C23 /* PhysicTester WatchKit Extension */,
+				8D56DE332899021000233C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D56DE332899021000233C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D56DE322899021000233C23 /* PhysicTester.app */,
+				8D56DE462899021100233C23 /* PhysicTester WatchKit App.app */,
+				8D56DE542899021200233C23 /* PhysicTester WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D56DE342899021000233C23 /* PhysicTester */ = {
+			isa = PBXGroup;
+			children = (
+				8D56DE6F289902FD00233C23 /* Content */,
+				8D56DE352899021000233C23 /* AppDelegate.swift */,
+				8D56DE372899021000233C23 /* SceneDelegate.swift */,
+				8D56DE392899021000233C23 /* ViewController.swift */,
+				8D56DE3B2899021000233C23 /* Main.storyboard */,
+				8D56DE74289903F300233C23 /* CardViewController.swift */,
+				8D56DE762899103700233C23 /* GradientView.swift */,
+				8D56DE3E2899021100233C23 /* Assets.xcassets */,
+				8D56DE402899021100233C23 /* LaunchScreen.storyboard */,
+				8D56DE432899021100233C23 /* Info.plist */,
+			);
+			path = PhysicTester;
+			sourceTree = "<group>";
+		};
+		8D56DE4A2899021100233C23 /* PhysicTester WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8D56DE4B2899021100233C23 /* Interface.storyboard */,
+				8D56DE4E2899021200233C23 /* Assets.xcassets */,
+			);
+			path = "PhysicTester WatchKit App";
+			sourceTree = "<group>";
+		};
+		8D56DE582899021200233C23 /* PhysicTester WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D56DE592899021200233C23 /* InterfaceController.swift */,
+				8D56DE5B2899021200233C23 /* ExtensionDelegate.swift */,
+				8D56DE5D2899021200233C23 /* ComplicationController.swift */,
+				8D56DE5F2899021200233C23 /* Assets.xcassets */,
+				8D56DE612899021200233C23 /* Info.plist */,
+			);
+			path = "PhysicTester WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8D56DE6F289902FD00233C23 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D56DE70289902FD00233C23 /* PhantomFromSpace.mp3 */,
+				8D56DE71289902FD00233C23 /* README.txt */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D56DE312899021000233C23 /* PhysicTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D56DE6C2899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester" */;
+			buildPhases = (
+				8D56DE2E2899021000233C23 /* Sources */,
+				8D56DE2F2899021000233C23 /* Frameworks */,
+				8D56DE302899021000233C23 /* Resources */,
+				8D56DE6B2899021200233C23 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D56DE492899021100233C23 /* PBXTargetDependency */,
+			);
+			name = PhysicTester;
+			productName = PhysicTester;
+			productReference = 8D56DE322899021000233C23 /* PhysicTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D56DE452899021100233C23 /* PhysicTester WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D56DE682899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester WatchKit App" */;
+			buildPhases = (
+				8D56DE442899021100233C23 /* Resources */,
+				8D56DE672899021200233C23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D56DE572899021200233C23 /* PBXTargetDependency */,
+			);
+			name = "PhysicTester WatchKit App";
+			productName = "PhysicTester WatchKit App";
+			productReference = 8D56DE462899021100233C23 /* PhysicTester WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8D56DE532899021200233C23 /* PhysicTester WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D56DE642899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester WatchKit Extension" */;
+			buildPhases = (
+				8D56DE502899021200233C23 /* Sources */,
+				8D56DE512899021200233C23 /* Frameworks */,
+				8D56DE522899021200233C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhysicTester WatchKit Extension";
+			productName = "PhysicTester WatchKit Extension";
+			productReference = 8D56DE542899021200233C23 /* PhysicTester WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D56DE2A2899021000233C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8D56DE312899021000233C23 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8D56DE452899021100233C23 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8D56DE532899021200233C23 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D56DE2D2899021000233C23 /* Build configuration list for PBXProject "PhysicTester" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D56DE292899021000233C23;
+			productRefGroup = 8D56DE332899021000233C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D56DE312899021000233C23 /* PhysicTester */,
+				8D56DE452899021100233C23 /* PhysicTester WatchKit App */,
+				8D56DE532899021200233C23 /* PhysicTester WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D56DE302899021000233C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D56DE422899021100233C23 /* LaunchScreen.storyboard in Resources */,
+				8D56DE72289902FD00233C23 /* PhantomFromSpace.mp3 in Resources */,
+				8D56DE3F2899021100233C23 /* Assets.xcassets in Resources */,
+				8D56DE3D2899021000233C23 /* Main.storyboard in Resources */,
+				8D56DE73289902FD00233C23 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D56DE442899021100233C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D56DE4F2899021200233C23 /* Assets.xcassets in Resources */,
+				8D56DE4D2899021100233C23 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D56DE522899021200233C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D56DE602899021200233C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D56DE2E2899021000233C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D56DE75289903F300233C23 /* CardViewController.swift in Sources */,
+				8D56DE3A2899021000233C23 /* ViewController.swift in Sources */,
+				8D56DE772899103800233C23 /* GradientView.swift in Sources */,
+				8D56DE362899021000233C23 /* AppDelegate.swift in Sources */,
+				8D56DE382899021000233C23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D56DE502899021200233C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D56DE5C2899021200233C23 /* ExtensionDelegate.swift in Sources */,
+				8D56DE5A2899021200233C23 /* InterfaceController.swift in Sources */,
+				8D56DE5E2899021200233C23 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D56DE492899021100233C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D56DE452899021100233C23 /* PhysicTester WatchKit App */;
+			targetProxy = 8D56DE482899021100233C23 /* PBXContainerItemProxy */;
+		};
+		8D56DE572899021200233C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D56DE532899021200233C23 /* PhysicTester WatchKit Extension */;
+			targetProxy = 8D56DE562899021200233C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D56DE3B2899021000233C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D56DE3C2899021000233C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D56DE402899021100233C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D56DE412899021100233C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8D56DE4B2899021100233C23 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D56DE4C2899021100233C23 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D56DE622899021200233C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D56DE632899021200233C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8D56DE652899021200233C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhysicTester WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PhysicTester WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8D56DE662899021200233C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhysicTester WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PhysicTester WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8D56DE692899021200233C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PhysicTester_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PhysicTester WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.chenyian.PhysicTester;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8D56DE6A2899021200233C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PhysicTester_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PhysicTester WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.chenyian.PhysicTester;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8D56DE6D2899021200233C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhysicTester/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D56DE6E2899021200233C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXMCZJQ3C9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhysicTester/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.chenyian.PhysicTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D56DE2D2899021000233C23 /* Build configuration list for PBXProject "PhysicTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D56DE622899021200233C23 /* Debug */,
+				8D56DE632899021200233C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D56DE642899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D56DE652899021200233C23 /* Debug */,
+				8D56DE662899021200233C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D56DE682899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D56DE692899021200233C23 /* Debug */,
+				8D56DE6A2899021200233C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D56DE6C2899021200233C23 /* Build configuration list for PBXNativeTarget "PhysicTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D56DE6D2899021200233C23 /* Debug */,
+				8D56DE6E2899021200233C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D56DE2A2899021000233C23 /* Project object */;
+}
