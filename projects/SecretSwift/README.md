@@ -1,4 +1,4 @@
-# SecretList
+# SecretSwift
 
 <img src="Documentation/demo.gif" width="375" alt="Demo" />
 
